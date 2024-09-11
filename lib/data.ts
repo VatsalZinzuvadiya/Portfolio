@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/chat_app.png";
+import datingAppImg from "@/public/image.png";
 import rmtdevImg from "@/public/crypto_tracker.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -48,26 +48,34 @@ export const experiencesData = [
     description:
       "Began my career during the COVID-19 pandemic, working as a freelance web developer at Dev Engineering.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "2022 - Present",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Software Developer | Cognisun",
     location: "Ahmedabad, India",
     description:
-      "I'm now a full-stack developer working at Cognisun. My stack includes React, Node, TypeScript, Tailwind and MySql. I'm open to full-time opportunities.",
+      "Designed and implemented RESTful APIs for a government project, migrated Backbone.js to React, and integrated Redis and Bull Queue for enhanced queue management.",
+    icon: React.createElement(CgWorkAlt),
+    date: "March 2023 – September 2023",
+  },
+  {
+    title: "Software Engineer | X-Byte Enterprise Solutions",
+    location: "Ahmedabad, India",
+    description:
+      "Developed and optimized microservices and serverless applications. Automated processes, integrated Docker, and worked with AWS services including CloudWatch and Rekognition. Led technical discussions and mentored team members.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "October 2022 – Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Chat App using Socket.io",
-    description: "A socket chat app is a real-time messaging tool for multiple users to communicate via a web interface.",
-    tags: ["React", "Node.js", "MySql", "Material Ui", "REDUX", "Socket.io"],
-    imageUrl: corpcommentImg,
+    title: "Dating App",
+    description: "Created a scalable dating app using Node.js and AWS, featuring S3 for media, Firebase for real-time chat, OpenSearch for advanced search, and Redis for caching.",
+    tags: ["Node.js", "AWS", "DynamoDB", "Firebase", "S3", "OpenSearch", "Redis", "Bull Queue"],
+    imageUrl: datingAppImg, // Replace with actual image URL if available
   },
-  {
+    {
     title: "Crypto Tracker",
     description:
       "Created a cryptocurrency tracker with a listing page for all coins and a details page displaying current prices and market capitalization in either rupees or USD.",
@@ -82,23 +90,28 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
   },
 ] as const;
-
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
+  "Golang",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
+  "Redis",
   "GraphQL",
   "Express",
-  "Material Ui",
-  "MySql",
-  "Framer Motion",
+  "Serverless Architecture",
+  "Docker",
+  "AWS",
+  "Kafka",
+  "REST APIs",
+  "Socket.io",
+  "CI/CD",
+  "Automated Testing",
+  "Performance Optimization",
+  "Tailwind CSS",
+  "Prisma",
+  "MongoDB",
+  "MySQL",
 ] as const;
